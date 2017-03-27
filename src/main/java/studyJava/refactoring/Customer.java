@@ -55,7 +55,7 @@ public class Customer {
 	 * 각 영화에 대한 요금 결정
 	 * @return
 	 */
-	private double getTotalCharge(){
+	public double getTotalCharge(){
 		double result = 0;
 		Enumeration rentals = _rentals.elements();
 		while(rentals.hasMoreElements()){
